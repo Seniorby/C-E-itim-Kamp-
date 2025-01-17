@@ -1,0 +1,112 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml;
+
+namespace ConsoleApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            /*Yazdırma Komutları
+            Console.Write("Merhaba Dünya");
+            Console.WriteLine("Selam");
+
+            Console.WriteLine("***** Yemek Kategorileri *****");
+            Console.WriteLine();
+            Console.WriteLine("1-Çorbalar");
+            Console.WriteLine("2-Ana Yemekler");
+            Console.WriteLine("3-Soğuk Başlangıçlar");
+            Console.WriteLine("4-Salatalar");
+            Console.WriteLine("5-Tatlılar");
+            Console.WriteLine("6-içecekler");
+            Console.WriteLine();
+            Console.WriteLine("***** Yemek Kategorileri *****");
+
+            Değişkenler
+            string customername;
+            string customersurname;
+            string customerphone;
+            string customermail, district, city;
+
+            customername = "Mete";
+            customersurname = "Toprak";
+            customerphone = "0 545 668 78 89";
+            customermail = "mtoprak@gmail.com";
+            district = "Kadıköy";
+            city = "İstanbul";
+
+            Console.WriteLine("***** Rezervasyon Kartı *****");
+            Console.WriteLine();
+            Console.WriteLine("------------------");
+            Console.WriteLine("Müşteri: " + customername + " " + customersurname);
+            Console.WriteLine("İletişim" + customerphone);
+            Console.WriteLine("email Adresi: " + customermail);
+            Console.WriteLine("Semt: " + district + "/" + city);
+            Console.WriteLine("------------------");
+
+            int num = 24;
+            Console.WriteLine(num);
+
+            int hamburgerprice;
+            int cokeprice;
+            int waterprice;
+            int friesprice;
+            int pizzaprice;
+            int lemonadeprice;
+
+            Console.WriteLine("***** Restoran Menü Fiyatı *****");
+            Console.WriteLine();
+            Console.WriteLine("--Hamburger: " + hamburgerprice + "TL");
+            Console.WriteLine("--Kola: " + cokeprice + "TL");
+            Console.WriteLine("--Su: " + waterprice + "TL");
+            Console.WriteLine("--Kızartma: " + friesprice + "TL");
+            Console.WriteLine("--Pizza: " + pizzaprice + "TL");
+            Console.WriteLine("--limonata: " + lemonadeprice + "TL");
+            Console.WriteLine("***** Restoran Menü Fiyatı ***** ");
+
+            Console.WriteLine();
+            int hamburgercount;
+            int cokecount;
+            int watercount;
+            int friescount;
+            int pizzacount;
+            int lemonadecount;
+
+            int totalprice = 0;
+            hamburgercount = 3;
+            cokecount = 3;
+            watercount = 1;
+            friescount = 1;
+            pizzacount = 0;
+            lemonadeprice = 0;
+
+            int totalhamburgerprice = hamburgerprice * hamburgercount;
+            int totalcokeprice = cokeprice * cokecount;
+            int totalwaterprice = watercount * waterprice;
+            int totalfriesprice = friesprice * friescount;
+            int totalpizzaprice = pizzaprice * pizzacount;
+            int totallemonadeprice = lemonadeprice * lemonadecount;
+
+            Console.WriteLine("--------------------------");
+            Console.WriteLine("Hamburger Tutarı: " + totalhamburgerprice + "TL");
+            Console.WriteLine("Kola Tutarı: " + totalhamburgerprice + "TL");
+            Console.WriteLine("Su Tutarı: " + totalhamburgerprice + "TL");
+            Console.WriteLine("Kızartma Tutarı: " + totalhamburgerprice + "TL");
+            Console.WriteLine("Pizza Tutarı: " + totalhamburgerprice + "TL");
+            Console.WriteLine("Limonata Tutarı: " + totalhamburgerprice + "TL");
+            
+            int totalprice = totalcokeprice + totalfriesprice + totalhamburgerprice + totallemonadeprice + totalpizzaprice + totalwaterprice;
+            Console.WriteLine("Toplam Ödenecek Tutar" + totalprice +" TL");
+            
+            Console.ReadKey();
+             */
+            //Baştaki '/*' ve sondaki '*/' kodlar yine çalışmayacaktır çalıştırmak istediğiniz kısım hariç '/*' - '*/' içine almanız gerekiyor.       
+
+        }
+    }
+}

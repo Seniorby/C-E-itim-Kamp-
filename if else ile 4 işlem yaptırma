@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Switch_Case_Çalışma
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //if else ile 4 işlem yaptırma
+            Console.ForegroundColor = ConsoleColor.Green;            
+            int sayi, sayi2, result, secim;
+            Console.WriteLine("Lütfen Sayı Girişlerini Yapınız");
+            sayi = int.Parse(Console.ReadLine());
+            sayi2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("İşlemi Seçiniz");
+            secim = int.Parse(Console.ReadLine());
+
+            if (secim == 1)
+            {
+                result = sayi + sayi2;
+                Console.WriteLine("Sonuç" + result);
+            }
+            if (secim == 2)
+            {
+                result = sayi - sayi2;
+                Console.WriteLine("Sonuç" + result);
+            }
+            if (secim == 3)
+            {
+                result = sayi * sayi2;
+                Console.WriteLine("Sonuç" + result);
+            }
+            if (secim == 4)
+            {
+                result = sayi / sayi2;
+                Console.WriteLine("Sonuç" + result);
+            }
